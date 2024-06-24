@@ -15,3 +15,25 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.orange_gradient {
+  @apply bg-gradient-to-l from-red-900 via-yellow-700 to-blue-800 bg-clip-text text-transparent;
+}
+
+
+@layer base {
+  body {
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+  }
+ }
+
+ @layer utilities {
+  .custom-bg {
+    @apply bg-black;
+  }
+  .custom-text {
+    @apply text-yellow-300;
+  }
+}

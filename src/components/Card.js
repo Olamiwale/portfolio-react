@@ -5,7 +5,7 @@ export default function Card () {
     <div>
          <div className="p-4 md:p-8 bg-gray-200 rounded-lg shadow-gray-400 shadow-xl h-[600px] ">
             <img
-              className="rounded-xl m-auto mt-[30px]" 
+              className="rounded-xl m-auto" 
               width={300} height={30} 
               src="./about.jpg" 
               alt="/profile-picture"/>
