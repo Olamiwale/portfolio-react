@@ -1,9 +1,9 @@
 import React from 'react'
-import About from './About'
-import Home from './Home'
-import Contact from './Contact'
-import Project from './Project'
-import Skills from './Skills'
+import About from './pages/About'
+import Home from '../components/pages/Home'
+import Contact from './pages/Contact'
+import Project from '../components/pages/Project'
+import Skills from '../components/pages/Skills'
 import {Routes, Route} from 'react-router-dom'
 
 
