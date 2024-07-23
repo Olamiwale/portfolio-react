@@ -7,9 +7,20 @@ export default function App() {
   return (
     <Router>
       <div className="flex">
-        <Sidebar />
 
-        <Layout />
+        <div className="fixed z-50">
+             <Sidebar/>
+        </div>
+
+        <div className="fixed  right-0 ml-[100px] ">
+           <Layout />
+        </div>
+        
+        
+        
+       
+
+       
       </div>
     </Router>
   );

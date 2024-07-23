@@ -4,11 +4,18 @@ import ProjectProps from "../ProjectProp";
 
 export default function Project() {
   return (
-    <div id="projects" className="p-8 pt-[80px] mb-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div id="projects" className=" flex flex-wrap justify-center py-5 ">
+
+     
       <ProjectProps title="Netflix"  />
+      <ProjectProps title="Vanlife"/>
+      <ProjectProps title="Summarizer"  />
+      <ProjectProps title="Data-Finance" />
       <ProjectProps title="Vanlife"/>
       <ProjectProps title="Summarizer"  />
       <ProjectProps title="Data-Finance" />
     </div>
   );
 }
+
+
