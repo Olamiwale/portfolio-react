@@ -22,7 +22,7 @@ const toggle = () => {
   ">{nav ? <div>Open</div> : <div>Close</div>}
     </div> 
 
-      <div className={!nav ? " w-[100px] md:hidden mt-[200px] m-4 absolute top-8 bg-red-300 left-0 p-2  my-8 z-50" : 'hidden'}>
+      <div className={!nav ? " w-[100px] md:hidden mt-[200px] m-4 absolute top-8 bg-red-300 left-0  my-8 z-50" : 'hidden'}>
 
        
 
@@ -31,24 +31,24 @@ const toggle = () => {
 
             <Link to='/'>
             
-            <img src="./homeIcon.png" alt="link" className="w-[50px] h-[50px] max-sm:w-[40px] max-sm:h-[35px]" />
+            <img src="./homeIcon.png" alt="link" className="w-[38px] h-[35px]" />
             
             </Link>
             <Link to='/about'>
             
-            <FaUser color={'black'} size={40} /> 
+            <FaUser color={'black'} size={35} /> 
             </Link>
             <Link to='/skills'>
             
-            <img src="./skills.png" alt="link" className="w-[70px] max-sm:w-[50px]" />
+            <img src="./skills.png" alt="link" className="w-[60px]" />
             </Link>
             <Link to='project'>
             
-            <FaProjectDiagram color={'black'} size={35} />
+            <FaProjectDiagram color={'black'} size={30} />
             </Link>
             <Link to='contact'>
             
-            <img src="./imageCon.png" alt="link" className="w-[50px] max-sm:w-[30px] " />
+            <img src="./imageCon.png" alt="link" className="w-[40px]" />
             </Link>
           
          
