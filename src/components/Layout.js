@@ -10,12 +10,14 @@ import {Routes, Route} from 'react-router-dom'
 
 export default function layout() {
   return (
-    <div className="flex-grow h-screen overflow-auto">
+    <div className="flex-grow h-screen overflow-y-auto ">
+
       <Routes>
+
 
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-          <Route path='/skills' element={<Skills />}/>
+        <Route path='/skills' element={<Skills />}/>
         <Route path='/project' element={<Project />}/>
       
         <Route path='/contact' element={<Contact />} />

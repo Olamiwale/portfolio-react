@@ -18,31 +18,37 @@ const toggle = () => {
 
   return (
     <div>
- <div onClick={toggle} className="bg-gray-400 absolute right-0 m-4 p-2 md:hidden
+ <div onClick={toggle} className="absolute bg-red-300 cursor-pointer rounded-md left-0 m-4 p-5 md:hidden
   ">{nav ? <div>Open</div> : <div>Close</div>}
     </div> 
 
-      <div className={!nav ? " w-3/5 md:hidden bg-red-500 absolute top-8 bg-red-500 right-0 p-2 mx-4 my-8 z-10" : 'hidden'}>
+      <div className={!nav ? " w-[100px] md:hidden mt-[200px] m-4 absolute top-8 bg-red-300 left-0 p-2  my-8 z-50" : 'hidden'}>
 
        
 
         
-           <ul className="p-4 text-white">
+           <ul className="p-4 text-white flex flex-col justify-start items-center my-10 gap-20">
 
             <Link to='/'>
-            <li className="hover:bg-red-400/50 p-4 font-bold uppercase">Home</li>
+            
+            <img src="./homeIcon.png" alt="link" className="w-[50px] h-[50px] max-sm:w-[40px] max-sm:h-[35px]" />
+            
             </Link>
             <Link to='/about'>
-            <li className="hover:bg-red-400/50 p-4 font-bold uppercase">About</li>
+            
+            <FaUser color={'black'} size={40} /> 
             </Link>
             <Link to='/skills'>
-            <li className="hover:bg-red-400/50 p-4 font-bold uppercase">Skill</li>
+            
+            <img src="./skills.png" alt="link" className="w-[70px] max-sm:w-[50px]" />
             </Link>
             <Link to='project'>
-            <li className="hover:bg-red-400/50 p-4 font-bold uppercase">Project</li>
+            
+            <FaProjectDiagram color={'black'} size={35} />
             </Link>
             <Link to='contact'>
-            <li className="hover:bg-red-400/50 p-4 font-bold uppercase">Contact</li>
+            
+            <img src="./imageCon.png" alt="link" className="w-[50px] max-sm:w-[30px] " />
             </Link>
           
          

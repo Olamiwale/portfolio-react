@@ -14,6 +14,14 @@ export default function Project() {
       <ProjectProps title="Vanlife"/>
       <ProjectProps title="Summarizer"  />
       <ProjectProps title="Data-Finance" />
+      <ProjectProps title="Data-Finance" />
+      <ProjectProps title="Vanlife"/>
+      <ProjectProps title="Summarizer"  />
+      <ProjectProps title="Data-Finance" />
+      <ProjectProps title="Data-Finance" />
+      <ProjectProps title="Vanlife"/>
+      <ProjectProps title="Summarizer"  />
+      <ProjectProps title="Data-Finance" />
     </div>
   );
 }
