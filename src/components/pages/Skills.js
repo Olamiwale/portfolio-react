@@ -16,7 +16,7 @@ import {
   Aws,
 } from "../imageImport";
 
-export default function Skills({ logo, title }) {
+export default function Skills({ logo, title, link }) {
   return (
     <>
       <div className="h-screen flex flex-col justify-center p-8">
