@@ -10,7 +10,7 @@ import {Routes, Route} from 'react-router-dom'
 
 export default function layout() {
   return (
-    <div className="flex-grow h-screen overflow-y-auto ">
+    <div className="flex-grow h-screen overflow-y-auto bg-black text-white ">
 
       <Routes>
 

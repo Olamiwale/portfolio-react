@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div>
-      <div className="bg-red-200 md:pb-[200px] h-screen justify-center items-center flex">
+      <div className="bg-black md:pb-[200px] h-screen justify-center items-center flex">
         <div>
           <div className="md:mt-[200px] px-8 md:px-16 flex flex-col justify-center items-center">
             <p className="uppercase"> let's build together</p>

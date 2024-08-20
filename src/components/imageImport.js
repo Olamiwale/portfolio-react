@@ -10,7 +10,6 @@ import Firebase from './asset/firebase.png';
 import Tailwind from './asset/tailwind.png';
 import Solidity from './asset/solidity.png';
 import Vue from './asset/vue.png';
-import Aws from './asset/aws.png'
 
 export {
   css,
@@ -24,5 +23,5 @@ export {
   Tailwind,
   Solidity,
   Vue,
-  Aws
+ 
 };

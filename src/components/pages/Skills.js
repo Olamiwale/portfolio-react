@@ -39,7 +39,7 @@ export default function Skills({ logo, title, link }) {
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
           <SkillsLogo logo={css} title="CSS" />
           <SkillsLogo logo={Html} title="HTML" />
-          <SkillsLogo logo={ImgGit} title="Github" />
+          <SkillsLogo logo={ImgGit} title="Github"/>
           <SkillsLogo logo={Js} title="JavaScript" />
           <SkillsLogo logo={Next} title="Next" />
           <SkillsLogo logo={Firebase} title="Firebase" />

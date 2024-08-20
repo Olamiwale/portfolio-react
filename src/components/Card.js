@@ -3,7 +3,7 @@ import React from 'react'
 export default function Card () {
   return (
     <div>
-         <div className="p-4 md:p-8 bg-gray-200 rounded-lg shadow-gray-400 shadow-xl h-[600px] ">
+         <div className="p-4 md:p-8 bg-gray-700 rounded-lg shadow-xl h-[600px]">
             <img
               className="rounded-xl m-auto" 
               width={300} height={30} 
@@ -30,6 +30,10 @@ export default function Card () {
                 <a href="https://www.linkedin.com/in/paul-olawale-9236b51a3/"
                   target="_blank" 
                   rel="noreferrer" >Linkdlin</a>
+
+                <a href="https://www.linkedin.com/in/paul-olawale-9236b51a3/"
+                  target="_blank" 
+                  rel="noreferrer" >X</a>
               </div>
             </div>
           </div>
