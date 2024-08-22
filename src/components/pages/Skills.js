@@ -1,22 +1,24 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import SkillsLogo from "../SkillsLogo";
 
-import {
-  css,
-  Html,
-  ImgGit,
-  Js,
-  Mongo,
-  Next,
-  Node,
-  Firebase,
-  Tailwind,
-  Solidity,
-  Vue,
-  Aws,
-} from "../imageImport";
+import {css,Html,ImgGit,Js,Mongo,Next,Node,Firebase,
+  Tailwind,Solidity,Vue,} from "../imageImport";
 
 export default function Skills({ logo, title, link }) {
+
+  const words = ['HTML', 'CSS', 'JavaScript', 'Angular','MongoDB', 'Nodejs','Github', 'Solidity'];
+
+  const [word, setWord] = useState(0);
+
+useEffect(() => {
+  const intervalid = setInterval(()=>{
+    setWord(pre => (pre + 1) % words.length);
+  }, 2000);
+
+  return () => clearInterval(intervalid)
+}, [words.length])
+
+
   return (
     <>
       <div className="h-screen flex flex-col justify-center p-8">
@@ -25,15 +27,18 @@ export default function Skills({ logo, title, link }) {
           <p className="font-semibold text-xl py-4">What I can do</p>
         </div>
 
-        <div className=" flex justify-center m-20 ">
-          <img src={css} className="w-20 bg-gray-300 p-3 absolute" />
-          <img src={ImgGit} className="w-20 bg-gray-300 p-3 absolute" />
-          <img src={Html} className="w-20 bg-gray-300 p-3 absolute" />
-          <img src={Js} className="w-20 bg-gray-300 p-3 " />
-                  </div>
+        <div className="flex justify-center py-[200px]">
+          
+        <p className="text-2xl font-bold uppercase"> {words[word]} </p>
+          
+        </div>
+
+       
+
+      
 
         
-
+ 
 
 
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
