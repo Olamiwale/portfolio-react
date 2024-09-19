@@ -1,8 +1,8 @@
 import React,{useState, useEffect} from "react";
-import SkillsLogo from "../SkillsLogo";
+import SkillsLogo from "../components/SkillsLogo";
 
 import {css,Html,ImgGit,Js,Mongo,Next,Node,Firebase,
-  Tailwind,Solidity,Vue,} from "../imageImport";
+  Tailwind,Solidity,Vue,} from "../components/imageImport";
 
 export default function Skills({ logo, title, link }) {
 
@@ -11,23 +11,23 @@ export default function Skills({ logo, title, link }) {
   const [word, setWord] = useState(0);
 
 useEffect(() => {
-  const intervalid = setInterval(()=>{
+  const interValid = setInterval(()=>{
     setWord(pre => (pre + 1) % words.length);
   }, 2000);
 
-  return () => clearInterval(intervalid)
+  return () => clearInterval(interValid)
 }, [words.length])
 
 
   return (
     <>
-      <div className="h-screen flex flex-col justify-center p-8">
+      <div className="flex flex-col justify-center p-8">
         <div className="">
           <p className="font-bold text-2xl py-4">Skills</p>
           <p className="font-semibold text-xl py-4">What I can do</p>
         </div>
 
-        <div className="flex justify-center py-[200px]">
+        <div className="flex justify-center py-20">
           
         <p className="text-2xl font-bold uppercase"> {words[word]} </p>
           

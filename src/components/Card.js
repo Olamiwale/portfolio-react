@@ -8,7 +8,7 @@ export default function Card () {
               className="rounded-xl m-auto" 
               width={300} height={30} 
               src="./about.jpg" 
-              alt="/profile-picture"/>
+              alt="/profile"/>
 
             <div>
               <h2 className="py-4 font-bold text-2xl">Paul Ola</h2>

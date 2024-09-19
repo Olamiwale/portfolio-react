@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectProps from "../ProjectProp";
+import ProjectProps from "../components/ProjectProp";
 import image2 from '../asset/img2.webp'
 import image1 from '../asset/img1.webp'
 import image3 from '../asset/img3.webp'

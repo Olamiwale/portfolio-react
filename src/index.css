@@ -1,10 +1,5 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #f0fdf4;
 }
 
 code {
@@ -18,6 +13,7 @@ code {
 
 
 
+
 .orange_gradient {
   @apply bg-gradient-to-l from-red-900 via-yellow-700 to-blue-800 bg-clip-text text-transparent;
 }
@@ -25,7 +21,7 @@ code {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#b3c1cb] text-[#1f2937] tracking-wide
   }
  }
 

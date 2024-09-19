@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div>
-      <div className="bg-black md:pb-[200px] h-screen justify-center items-center flex">
+      <div className="bg-[#1c0503] md:pb-[200px] h-screen justify-center items-center flex">
         <div>
           <div className="md:mt-[200px] px-8 md:px-16 flex flex-col justify-center items-center">
             <p className="uppercase"> let's build together</p>
@@ -52,7 +52,7 @@ export default function Home() {
 
               <div className="p-2 rounded-[10px] max-sm:w-[60px] md:p-4 ">
                 <a
-                  href="https://github.com/Olamiwale"
+                  href="https://www.linkedin.com/in/paul-ogunmakinju-9236b51a3/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -62,7 +62,7 @@ export default function Home() {
 
               <div className="p-2 rounded-[10px] max-sm:w-[60px] md:p-4 ">
                 <a
-                  href="https://github.com/Olamiwale"
+                  href="https://x.com/Paulolawalee"
                   target="_blank"
                   rel="noreferrer"
                 >
